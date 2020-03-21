@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/x-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/x-service/service-uac/pom.xml" />
+        <option value="$PROJECT_DIR$/x-server/server-uac/pom.xml" />
+        <option value="$PROJECT_DIR$/x-api/api-uac/pom.xml" />
+        <option value="$PROJECT_DIR$/x-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/x-common/x-security/pom.xml" />
+        <option value="$PROJECT_DIR$/x-common/x-util/pom.xml" />
+        <option value="$PROJECT_DIR$/x-ureport2/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

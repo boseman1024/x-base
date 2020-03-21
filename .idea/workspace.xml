@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ab70dff-018f-4f9a-af64-ddfff7225f7d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1VcFDeKSX7TrLCwjNjA7zyoI2DE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.axisx.xauth" />
+      <recent name="com.axisx.serveruac" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.XUreport2Application">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="x-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="x-base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server-uac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.axisx.serveruac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.axisx.serveruac" />
+      <option name="MAIN_CLASS_NAME" value="com.axisx.serveruac.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-message" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.apimessage.ApiMessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiUacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-uac" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.apiuac.ApiUacApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-message" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.servermessage.ServerMessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerUacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-uac" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.serveruac.ServerUacApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-message" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.servicemessage.ServiceMessageApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceUacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-uac" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.serviceuac.ServiceUacApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xadmin.XAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xauth.XAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xgateway.XGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xsecurity.XSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XSwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-swagger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xswagger.XSwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XUreport2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-ureport2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xureport2.XUreport2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XUtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="x-util" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xutil.XUtilApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="Spring Boot.ApiMessageApplication" />
+      <item itemvalue="Spring Boot.ApiUacApplication" />
+      <item itemvalue="Spring Boot.ServerMessageApplication" />
+      <item itemvalue="Spring Boot.ServerUacApplication" />
+      <item itemvalue="Spring Boot.ServiceMessageApplication" />
+      <item itemvalue="Spring Boot.ServiceUacApplication" />
+      <item itemvalue="Spring Boot.XAdminApplication" />
+      <item itemvalue="Spring Boot.XAuthApplication" />
+      <item itemvalue="Spring Boot.XGatewayApplication" />
+      <item itemvalue="Spring Boot.XSecurityApplication" />
+      <item itemvalue="Spring Boot.XSwaggerApplication" />
+      <item itemvalue="Spring Boot.XUtilApplication" />
+      <item itemvalue="Spring Boot.XUreport2Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ab70dff-018f-4f9a-af64-ddfff7225f7d" name="Default Changelist" comment="" />
+      <created>1577544357548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577544357548</updated>
+      <workItem from="1577544358784" duration="2991000" />
+      <workItem from="1577592595327" duration="3589000" />
+      <workItem from="1577599416346" duration="260000" />
+      <workItem from="1577599700815" duration="16907000" />
+      <workItem from="1577705930937" duration="13264000" />
+      <workItem from="1577792194493" duration="11356000" />
+      <workItem from="1577846216685" duration="15138000" />
+      <workItem from="1577964885527" duration="9628000" />
+      <workItem from="1578050792694" duration="7559000" />
+      <workItem from="1578200068111" duration="17601000" />
+      <workItem from="1578311331953" duration="2435000" />
+      <workItem from="1578398319428" duration="7309000" />
+      <workItem from="1578486750335" duration="7922000" />
+      <workItem from="1578568333374" duration="9451000" />
+      <workItem from="1578660173489" duration="8490000" />
+      <workItem from="1583551831946" duration="9775000" />
+      <workItem from="1583579763298" duration="4379000" />
+      <workItem from="1583594711934" duration="538000" />
+      <workItem from="1584244567891" duration="689000" />
+      <workItem from="1584245274093" duration="8529000" />
+      <workItem from="1584270596775" duration="962000" />
+      <workItem from="1584370083277" duration="629000" />
+      <workItem from="1584370980961" duration="235000" />
+      <workItem from="1584371229835" duration="342000" />
+      <workItem from="1584538879054" duration="28000" />
+      <workItem from="1584546392068" duration="191000" />
+      <workItem from="1584708766349" duration="2297000" />
+      <workItem from="1584759445729" duration="1665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1584726803384">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584726803384" />
+    <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584546531416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584546531416" />
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1584546530483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584546530483" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584773098395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584773098395" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584773098395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584773098395" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584773098395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584773098395" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584773098395">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584773098395" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1584728401598">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584728401598" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584546396220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584546396220" />
+    <state x="334" y="129" key="new project wizard" timestamp="1584726872971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584726872971" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/x_base$ServerUacApplication.ic" NAME="ServerUacApplication Coverage Results" MODIFIED="1577717743782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

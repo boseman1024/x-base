@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="x-ureport2" />
+        <module name="x-security" />
+        <module name="x-gateway" />
+        <module name="api-message" />
+        <module name="api-uac" />
+        <module name="service-uac" />
+        <module name="server-uac" />
+        <module name="service-message" />
+        <module name="server-message" />
+        <module name="x-swagger" />
+        <module name="x-auth" />
+        <module name="x-admin" />
+        <module name="x-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="x-zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-message" options="-parameters" />
+      <module name="api-uac" options="-parameters" />
+      <module name="server-message" options="-parameters" />
+      <module name="server-uac" options="-parameters" />
+      <module name="service-message" options="-parameters" />
+      <module name="service-uac" options="-parameters" />
+      <module name="x-admin" options="-parameters" />
+      <module name="x-auth" options="-parameters" />
+      <module name="x-gateway" options="-parameters" />
+      <module name="x-security" options="-parameters" />
+      <module name="x-swagger" options="-parameters" />
+      <module name="x-ureport2" options="-parameters" />
+      <module name="x-util" options="-parameters" />
+      <module name="x-zipkin" options="-parameters" />
+    </option>
+  </component>
+</project>

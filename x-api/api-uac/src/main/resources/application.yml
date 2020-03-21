@@ -1,0 +1,7 @@
+
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-field: del_flag
+  type-enums-package: com.axisx.apiuac.enums
+
