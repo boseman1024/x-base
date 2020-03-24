@@ -1,7 +1,7 @@
 package com.axisx.apimessage.api;
 
 import com.axisx.apimessage.dto.MsgDTO;
-import com.axisx.apiuac.dto.ResponseDTO;
+import com.axisx.apicommon.dto.ResponseDTO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

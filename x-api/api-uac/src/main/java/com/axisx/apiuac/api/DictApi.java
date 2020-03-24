@@ -1,7 +1,7 @@
 package com.axisx.apiuac.api;
 
 import com.axisx.apiuac.dto.ListDictDTO;
-import com.axisx.apiuac.dto.ResponseDTO;
+import com.axisx.apicommon.dto.ResponseDTO;
 import com.axisx.apiuac.dto.SaveDictDTO;
 import com.axisx.apiuac.dto.UpdateDictDTO;
 import org.springframework.web.bind.annotation.*;

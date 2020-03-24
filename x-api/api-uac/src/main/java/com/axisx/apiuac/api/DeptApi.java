@@ -1,5 +1,6 @@
 package com.axisx.apiuac.api;
 
+import com.axisx.apicommon.dto.ResponseDTO;
 import com.axisx.apiuac.dto.*;
 import org.springframework.web.bind.annotation.*;
 

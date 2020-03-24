@@ -1,6 +1,6 @@
 package com.axisx.xsecurity.feign;
 
-import com.axisx.apiuac.dto.ResponseDTO;
+import com.axisx.apicommon.dto.ResponseDTO;
 import com.axisx.apiuac.dto.UserDetailDTO;
 import com.axisx.xsecurity.feign.fallback.UserFallback;
 import org.springframework.cloud.openfeign.FeignClient;

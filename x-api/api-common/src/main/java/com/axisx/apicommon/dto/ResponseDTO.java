@@ -1,4 +1,4 @@
-package com.axisx.apiuac.dto;
+package com.axisx.apicommon.dto;
 
 
 import lombok.AllArgsConstructor;

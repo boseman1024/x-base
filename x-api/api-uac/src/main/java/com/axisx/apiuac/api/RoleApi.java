@@ -1,7 +1,7 @@
 package com.axisx.apiuac.api;
 
 import com.axisx.apiuac.dto.ListRoleDTO;
-import com.axisx.apiuac.dto.ResponseDTO;
+import com.axisx.apicommon.dto.ResponseDTO;
 import com.axisx.apiuac.dto.SaveRoleDTO;
 import com.axisx.apiuac.dto.UpdateRoleDTO;
 import org.springframework.web.bind.annotation.*;

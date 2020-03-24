@@ -12,6 +12,8 @@
 
     <artifactId>x-api</artifactId>
     <modules>
+        <module>api-common</module>
+        <module>api-file</module>
         <module>api-uac</module>
         <module>api-message</module>
     </modules>

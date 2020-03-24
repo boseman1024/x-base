@@ -13,6 +13,7 @@
     <modules>
         <module>server-uac</module>
         <module>server-message</module>
+        <module>server-file</module>
     </modules>
 
 </project>

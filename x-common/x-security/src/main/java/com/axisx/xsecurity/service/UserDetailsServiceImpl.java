@@ -1,6 +1,6 @@
 package com.axisx.xsecurity.service;
 
-import com.axisx.apiuac.dto.ResponseDTO;
+import com.axisx.apicommon.dto.ResponseDTO;
 import com.axisx.apiuac.dto.UserDetailDTO;
 import com.axisx.apiuac.entity.SysUser;
 import com.axisx.xsecurity.feign.UserRemoteService;

@@ -7,35 +7,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="x-ureport2" />
-        <module name="x-security" />
-        <module name="x-gateway" />
-        <module name="api-message" />
-        <module name="api-uac" />
-        <module name="service-uac" />
-        <module name="server-uac" />
-        <module name="service-message" />
-        <module name="server-message" />
         <module name="x-swagger" />
+        <module name="api-message" />
+        <module name="service-uac" />
+        <module name="api-common" />
+        <module name="api-file" />
+        <module name="api-uac" />
         <module name="x-auth" />
+        <module name="server-uac" />
+        <module name="x-security" />
         <module name="x-admin" />
+        <module name="x-gateway" />
+        <module name="server-file" />
         <module name="x-util" />
+        <module name="server-message" />
+        <module name="service-message" />
+        <module name="x-ureport2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="" target="1.5" />
+      <module name="x-api" target="1.5" />
+      <module name="x-fastdfs" target="1.8" />
       <module name="x-zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="" options="-parameters" />
+      <module name="api-common" options="-parameters" />
+      <module name="api-file" options="-parameters" />
       <module name="api-message" options="-parameters" />
       <module name="api-uac" options="-parameters" />
+      <module name="server-file" options="-parameters" />
       <module name="server-message" options="-parameters" />
       <module name="server-uac" options="-parameters" />
       <module name="service-message" options="-parameters" />
       <module name="service-uac" options="-parameters" />
       <module name="x-admin" options="-parameters" />
       <module name="x-auth" options="-parameters" />
+      <module name="x-fastdfs" options="-parameters" />
       <module name="x-gateway" options="-parameters" />
       <module name="x-security" options="-parameters" />
       <module name="x-swagger" options="-parameters" />

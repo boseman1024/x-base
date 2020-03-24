@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/x-admin" charset="UTF-8" />
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/x-admin/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-api/api-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-api/api-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-api/api-file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-api/api-message/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-api/api-uac" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-api/api-uac/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-auth/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-common/x-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-common/x-security/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-common/x-swagger" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-common/x-swagger/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-common/x-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-common/x-util/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-gateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-server/server-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-server/server-file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-server/server-message/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-server/server-uac" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-server/server-uac/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-service/service-message" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-service/service-message/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/x-service/service-uac" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-service/service-uac/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-ureport2/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

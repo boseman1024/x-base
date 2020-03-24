@@ -16,7 +16,16 @@
         <option value="$PROJECT_DIR$/x-common/x-security/pom.xml" />
         <option value="$PROJECT_DIR$/x-common/x-util/pom.xml" />
         <option value="$PROJECT_DIR$/x-ureport2/pom.xml" />
+        <option value="$PROJECT_DIR$/x-api/pom.xml" />
+        <option value="$PROJECT_DIR$/x-api/api-common/pom.xml" />
+        <option value="$PROJECT_DIR$/x-server/server-file/pom.xml" />
+        <option value="$PROJECT_DIR$/x-api/api-file/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/x-api/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">

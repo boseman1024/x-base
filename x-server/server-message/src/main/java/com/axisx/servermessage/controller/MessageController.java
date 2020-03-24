@@ -6,7 +6,7 @@ import com.axisx.apimessage.dto.MsgDTO;
 import com.axisx.apimessage.enums.MsgStateEnum;
 import com.axisx.apimessage.enums.MsgTypeEnum;
 import com.axisx.apimessage.vo.MsgVO;
-import com.axisx.apiuac.dto.ResponseDTO;
+import com.axisx.apicommon.dto.ResponseDTO;
 import com.axisx.servermessage.socket.MessageSocket;
 import com.axisx.servicemessage.service.MsgService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class MessageController implements MessageApi {
 
     @Override
     public ResponseDTO onlineCount() {
-        return ResponseDTO.success(messageSocket.getOnlineCount());
+        return ResponseDTO.success(MessageSocket.getOnlineCount());
     }
 
     @Override
