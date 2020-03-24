@@ -15,7 +15,7 @@ fdfs:
     width: 150
     height: 150
   tracker-list:
-    - 120.55.84.144:22122
+    - localhost:22122
   pool:
     max-total: -1
     max-wait-millis: 5000

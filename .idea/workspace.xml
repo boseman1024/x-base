@@ -2,115 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab70dff-018f-4f9a-af64-ddfff7225f7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/src/main/java/com/axisx/apicommon/ApiCommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-common/src/test/java/com/axisx/apicommon/ApiCommonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/src/main/java/com/axisx/apifile/ApiFileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/src/main/java/com/axisx/apifile/api/FileApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/api-file/src/test/java/com/axisx/apifile/ApiFileApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-api/x-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/src/main/java/com/axisx/serverfile/ServerFileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/src/main/java/com/axisx/serverfile/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/x-server/server-file/src/test/java/com/axisx/serverfile/ServerFileApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/api/MessageApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/api/MessageApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/dto/MsgDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/dto/MsgDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/entity/MsgStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/entity/MsgStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/enums/MsgStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/enums/MsgStateEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/enums/MsgTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/enums/MsgTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/vo/MsgVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-message/src/main/java/com/axisx/apimessage/vo/MsgVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/DeptApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/DeptApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/DictApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/DictApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/MenuApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/MenuApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/RoleApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/RoleApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/UserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/api/UserApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/DeptMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/DeptMenuDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/DeptUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/DeptUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListDeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListDeptDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListDictDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListDictDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListMenuDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListRoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListRoleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ListUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-common/src/main/java/com/axisx/apicommon/dto/ResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/RoleMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/RoleMenuDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveDeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveDeptDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveDictDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveDictDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveMenuDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveRoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveRoleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/SaveUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateDeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateDeptDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateDictDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateDictDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateMenuDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateRoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateRoleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UpdateUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UserDetailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UserDetailDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UserRoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/dto/UserRoleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDeptMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDeptMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDeptRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDeptRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDeptUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDeptUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysDict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysRoleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/entity/SysUserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/enums/MenuTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/enums/MenuTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/enums/StateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/enums/StateEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DeptTreeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DeptTreeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DeptVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DeptVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DictTreeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DictTreeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DictVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/DictVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/MenuCheckItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/MenuCheckItemVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/MenuTreeVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/MenuTreeVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/MenuVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/MenuVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/RoleVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/RoleVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/UserVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-uac/src/main/java/com/axisx/apiuac/vo/UserVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/feign/UserRemoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/feign/UserRemoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/feign/fallback/UserFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/feign/fallback/UserFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/util/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/util/SecurityUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-server/server-message/src/main/java/com/axisx/servermessage/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-message/src/main/java/com/axisx/servermessage/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/DeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/DeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/DictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/DictController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-uac/src/main/java/com/axisx/serveruac/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-ureport2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/x-ureport2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x-ureport2/src/main/java/com/axisx/xureport2/XUreport2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-ureport2/src/main/java/com/axisx/xureport2/XUreport2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-server/server-file/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-file/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +303,7 @@
       <workItem from="1584708766349" duration="2297000" />
       <workItem from="1584759445729" duration="3378000" />
       <workItem from="1584874363798" duration="1206000" />
-      <workItem from="1585053815511" duration="8271000" />
+      <workItem from="1585053815511" duration="8635000" />
     </task>
     <servers />
   </component>
