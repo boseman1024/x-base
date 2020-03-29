@@ -20,12 +20,10 @@
         <option value="$PROJECT_DIR$/x-api/api-common/pom.xml" />
         <option value="$PROJECT_DIR$/x-server/server-file/pom.xml" />
         <option value="$PROJECT_DIR$/x-api/api-file/pom.xml" />
+        <option value="$PROJECT_DIR$/x-server/server-workflow/pom.xml" />
+        <option value="$PROJECT_DIR$/x-api/api-workflow/pom.xml" />
+        <option value="$PROJECT_DIR$/x-service/service-workflow/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/x-api/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">

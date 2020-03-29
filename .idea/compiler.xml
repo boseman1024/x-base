@@ -9,25 +9,27 @@
         <outputRelativeToContentRoot value="true" />
         <module name="x-swagger" />
         <module name="api-message" />
+        <module name="api-uac" />
         <module name="service-uac" />
         <module name="api-common" />
         <module name="api-file" />
-        <module name="api-uac" />
+        <module name="api-workflow" />
         <module name="x-auth" />
         <module name="server-uac" />
         <module name="x-security" />
         <module name="x-admin" />
+        <module name="server-workflow" />
+        <module name="service-workflow" />
         <module name="x-gateway" />
         <module name="server-file" />
-        <module name="x-util" />
         <module name="server-message" />
+        <module name="x-util" />
         <module name="service-message" />
         <module name="x-ureport2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="" target="1.5" />
-      <module name="x-api" target="1.5" />
       <module name="x-fastdfs" target="1.8" />
       <module name="x-zipkin" target="1.8" />
     </bytecodeTargetLevel>
@@ -39,11 +41,14 @@
       <module name="api-file" options="-parameters" />
       <module name="api-message" options="-parameters" />
       <module name="api-uac" options="-parameters" />
+      <module name="api-workflow" options="-parameters" />
       <module name="server-file" options="-parameters" />
       <module name="server-message" options="-parameters" />
       <module name="server-uac" options="-parameters" />
+      <module name="server-workflow" options="-parameters" />
       <module name="service-message" options="-parameters" />
       <module name="service-uac" options="-parameters" />
+      <module name="service-workflow" options="-parameters" />
       <module name="x-admin" options="-parameters" />
       <module name="x-auth" options="-parameters" />
       <module name="x-fastdfs" options="-parameters" />

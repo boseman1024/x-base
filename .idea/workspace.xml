@@ -2,6 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ab70dff-018f-4f9a-af64-ddfff7225f7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/x-api/api-file/src/main/java/com/axisx/apifile/dto/FileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/src/main/java/com/axisx/apiworkflow/ApiWorkflowApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/src/main/java/com/axisx/apiworkflow/api/ProcessApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/src/main/java/com/axisx/apiworkflow/dto/ListProcessDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/src/main/java/com/axisx/apiworkflow/entity/ActReProcdef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/src/main/java/com/axisx/apiworkflow/vo/ProcessVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-api/api-workflow/src/test/java/com/axisx/apiworkflow/ApiWorkflowApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/src/main/java/com/axisx/serverworkflow/ServerWorkflowApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/src/main/java/com/axisx/serverworkflow/controller/ProcessController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/src/main/resources/META-INF/processes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/src/main/resources/checking.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/src/main/resources/order.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-server/server-workflow/src/test/java/com/axisx/serverworkflow/ServerWorkflowApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/src/main/java/com/axisx/serviceworkflow/ServiceWorkflowApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/src/main/java/com/axisx/serviceworkflow/dao/ActReProcdefMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/src/main/java/com/axisx/serviceworkflow/service/ProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/src/main/java/com/axisx/serviceworkflow/service/impl/ProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/x-service/service-workflow/src/test/java/com/axisx/serviceworkflow/ServiceWorkflowApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-api/api-file/src/main/java/com/axisx/apifile/api/FileApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-api/api-file/src/main/java/com/axisx/apifile/api/FileApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-api/x-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/conf/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-common/x-security/src/main/java/com/axisx/xsecurity/conf/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/x-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-server/server-file/src/main/java/com/axisx/serverfile/ServerFileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-file/src/main/java/com/axisx/serverfile/ServerFileApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x-server/server-file/src/main/java/com/axisx/serverfile/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-file/src/main/java/com/axisx/serverfile/controller/FileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x-server/server-file/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/x-server/server-file/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +84,8 @@
       <list>
         <option value="Enum" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,6 +130,9 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.axisx.apifile" />
@@ -88,7 +144,7 @@
       <recent name="C:\404\403\JAVA\x-base\x-server\server-file\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerFileApplication">
+  <component name="RunManager" selected="Spring Boot.ServerUacApplication">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="x-base" />
       <working_directory value="$PROJECT_DIR$" />
@@ -119,34 +175,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-common" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.apicommon.ApiCommonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-file" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.apifile.ApiFileApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-message" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.apimessage.ApiMessageApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiUacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="api-uac" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.apiuac.ApiUacApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ServerFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server-file" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.serverfile.ServerFileApplication" />
@@ -168,16 +196,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service-message" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.servicemessage.ServiceMessageApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServiceUacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="service-uac" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.serviceuac.ServiceUacApplication" />
+    <configuration name="ServerWorkflowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-workflow" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.serverworkflow.ServerWorkflowApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,30 +217,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XFastdfsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="x-fastdfs" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xfastdfs.XFastdfsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="XGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="x-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xgateway.XGatewayApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="x-security" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xsecurity.XSecurityApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XSwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="x-swagger" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xswagger.XSwaggerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,32 +231,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XUtilApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="x-util" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.axisx.xutil.XUtilApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.UserServiceTest" />
-      <item itemvalue="Spring Boot.ApiMessageApplication" />
-      <item itemvalue="Spring Boot.ApiUacApplication" />
       <item itemvalue="Spring Boot.ServerMessageApplication" />
       <item itemvalue="Spring Boot.ServerUacApplication" />
-      <item itemvalue="Spring Boot.ServiceMessageApplication" />
-      <item itemvalue="Spring Boot.ServiceUacApplication" />
       <item itemvalue="Spring Boot.XAdminApplication" />
       <item itemvalue="Spring Boot.XAuthApplication" />
       <item itemvalue="Spring Boot.XGatewayApplication" />
-      <item itemvalue="Spring Boot.XSecurityApplication" />
-      <item itemvalue="Spring Boot.XSwaggerApplication" />
-      <item itemvalue="Spring Boot.XUtilApplication" />
       <item itemvalue="Spring Boot.XUreport2Application" />
-      <item itemvalue="Spring Boot.XFastdfsApplication" />
-      <item itemvalue="Spring Boot.ApiCommonApplication" />
       <item itemvalue="Spring Boot.ServerFileApplication" />
-      <item itemvalue="Spring Boot.ApiFileApplication" />
+      <item itemvalue="Spring Boot.ServerWorkflowApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -303,7 +287,11 @@
       <workItem from="1584708766349" duration="2297000" />
       <workItem from="1584759445729" duration="3378000" />
       <workItem from="1584874363798" duration="1206000" />
-      <workItem from="1585053815511" duration="8635000" />
+      <workItem from="1585053815511" duration="9704000" />
+      <workItem from="1585223066353" duration="7871000" />
+      <workItem from="1585362132386" duration="4654000" />
+      <workItem from="1585381104853" duration="12946000" />
+      <workItem from="1585449365812" duration="7889000" />
     </task>
     <servers />
   </component>
@@ -318,10 +306,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1584726803384" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1585061504541">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585400512771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585061504541" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585400512771" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1585399883082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585399883082" />
     <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1584546531416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -346,58 +338,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="737" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585060205104" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585065251122">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585065251122" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585065251122">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585065251122" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585065251122">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585065251122" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585065251122">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585065251122" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585065070553">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070553" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585065070552">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070552" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585065070552">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070552" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585065070553">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070553" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1585065070553">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1585487360118">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070553" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1585065070553">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360118" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070553" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1585065070553">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070553" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1585065070553">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1585487360117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585065070553" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1585060987730">
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585487360117" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1585226832445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585060987730" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585226832445" />
     <state x="600" y="217" key="NewModule_or_Project.wizard" timestamp="1585060222783">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -410,10 +402,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584546396220" />
-    <state x="334" y="129" key="new project wizard" timestamp="1585061622983">
+    <state x="511" y="256" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585465482135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585061622983" />
+    <state x="511" y="256" width="897" height="605" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1585465482135" />
+    <state x="334" y="129" key="new project wizard" timestamp="1585363430129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1585363430129" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585385643980">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585385643980" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/x_base$ServerUacApplication.ic" NAME="ServerUacApplication Coverage Results" MODIFIED="1577717743782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -34,6 +34,18 @@ spring:
             - Path=/msg/**
           filters:
             - StripPrefix=1
+        - id: server-file
+          uri: lb://server-file
+          predicates:
+            - Path=/file/**
+          filters:
+            - StripPrefix=1
+        - id: server-workflow
+          uri: lb://server-workflow
+          predicates:
+            - Path=/workflow/**
+          filters:
+            - StripPrefix=1
         - id: base-admin
           uri: lb://base-admin
           predicates:

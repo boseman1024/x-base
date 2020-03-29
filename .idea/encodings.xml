@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/x-api/api-file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-api/api-message/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-api/api-uac/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-api/api-workflow/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-auth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-common/x-security/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-common/x-swagger/src/main/java" charset="UTF-8" />
@@ -14,8 +15,10 @@
     <file url="file://$PROJECT_DIR$/x-server/server-file/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-server/server-message/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-server/server-uac/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-server/server-workflow/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-service/service-message/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-service/service-uac/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-service/service-workflow/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/x-ureport2/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
