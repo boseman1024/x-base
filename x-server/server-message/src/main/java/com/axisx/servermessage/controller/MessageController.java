@@ -10,6 +10,7 @@ import com.axisx.apicommon.dto.ResponseDTO;
 import com.axisx.servermessage.socket.MessageSocket;
 import com.axisx.servicemessage.service.MsgService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -21,13 +22,24 @@ public class MessageController implements MessageApi {
     private MsgService msgService;
 
     @Override
-    public void sendAll(String message) {
-        messageSocket.sendMessageAll(message);
+    public void sendAllOnline(@RequestBody MsgDTO msgDTO) {
+        MsgVO result = new MsgVO();
+        result.setContent(msgDTO.getContent());
+        messageSocket.sendMessageAllOnline(JSON.toJSONString(result));
     }
 
     @Override
-    public void sendTo(String to, String message) {
-        messageSocket.sendMessageTo(to,message);
+    public void sendAll(@RequestBody MsgDTO msgDTO) {
+        MsgVO result = new MsgVO();
+        result.setContent(msgDTO.getContent());
+        messageSocket.sendAll(JSON.toJSONString(result));
+    }
+
+    @Override
+    public void sendTo(@RequestBody MsgDTO msgDTO) {
+        MsgVO result = new MsgVO();
+        result.setContent(msgDTO.getContent());
+        messageSocket.sendMessageTo(msgDTO.getReceiver(),JSON.toJSONString(result));
     }
 
     @Override
@@ -41,7 +53,15 @@ public class MessageController implements MessageApi {
         if(result!=null){
             if(MsgStateEnum.RELEASE.getValue().equals(msgDTO.getState())&&MsgTypeEnum.ONLINE.getValue().equals(msgDTO.getType())){
                 String json = JSON.toJSONString(result);
-                messageSocket.sendMessageAll(json);
+                messageSocket.sendMessageAllOnline(json);
+            }
+            if(MsgStateEnum.RELEASE.getValue().equals(msgDTO.getState())&&MsgTypeEnum.ALL.getValue().equals(msgDTO.getType())){
+                String json = JSON.toJSONString(result);
+                messageSocket.sendAll(json);
+            }
+            if(MsgStateEnum.RELEASE.getValue().equals(msgDTO.getState())&&MsgTypeEnum.TO.getValue().equals(msgDTO.getType())){
+                String json = JSON.toJSONString(result);
+                messageSocket.sendMessageTo(result.getReceiver(),json);
             }
             return ResponseDTO.success(true);
         }

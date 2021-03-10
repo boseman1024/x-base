@@ -16,6 +16,8 @@
         <module>api-file</module>
         <module>api-uac</module>
         <module>api-message</module>
+        <module>api-microcosm</module>
+        <module>api-yizou</module>
     </modules>
 
 </project>

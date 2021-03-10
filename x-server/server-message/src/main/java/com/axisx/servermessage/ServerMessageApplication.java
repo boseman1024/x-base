@@ -9,9 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 @ComponentScan(basePackages = {"com.axisx.*"})
 public class ServerMessageApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ServerMessageApplication.class, args);
     }
-
 }

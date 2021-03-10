@@ -10,16 +10,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/message")
 public interface MessageApi {
     /**
-     * 推送消息至当前所有用户
+     * 推送消息至当前所有在线用户
+     */
+    @PostMapping("/sendAllOnline")
+    void sendAllOnline(@RequestBody MsgDTO msgDTO);
+
+    /**
+     * 推送消息至所有用户
      */
     @PostMapping("/sendAll")
-    void sendAll(String message);
+    void sendAll(@RequestBody MsgDTO msgDTO);
 
     /**
      * 推送消息至某所有用户
      */
     @PostMapping("/sendTo")
-    void sendTo(String to,String message);
+    void sendTo(@RequestBody MsgDTO msgDTO);
 
     /**
      * 当前在线人数

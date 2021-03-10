@@ -40,15 +40,22 @@ spring:
             - Path=/file/**
           filters:
             - StripPrefix=1
-        - id: server-workflow
-          uri: lb://server-workflow
-          predicates:
-            - Path=/workflow/**
-          filters:
-            - StripPrefix=1
+
         - id: base-admin
           uri: lb://base-admin
           predicates:
             - Path=/admin/**
+          filters:
+            - StripPrefix=1
+        - id: server-microcosm
+          uri: lb://server-microcosm
+          predicates:
+            - Path=/microcosm/**
+          filters:
+            - StripPrefix=1
+        - id: server-yizou
+          uri: lb://server-yizou
+          predicates:
+            - Path=/yizou/**
           filters:
             - StripPrefix=1

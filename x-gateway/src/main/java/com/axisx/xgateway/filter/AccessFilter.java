@@ -32,6 +32,9 @@ public class AccessFilter implements GlobalFilter {
         if(pathMatcher.match("/actuator/**",exchange.getRequest().getPath().value())){
             return chain.filter(exchange);
         }
+        if(pathMatcher.match("/poster/**",exchange.getRequest().getPath().value())){
+            return chain.filter(exchange);
+        }
 
         if(!pathMatcher.match("/oauth/token",exchange.getRequest().getPath().value())){
             if(accessToken==null){

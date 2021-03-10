@@ -92,6 +92,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, SysUser> implements
     @Override
     public UserVO getUser(Integer id) {
         SysUser sysUser = this.getById(id);
+        if(sysUser==null){
+            return null;
+        }
         return entityToVO(sysUser);
     }
 
@@ -116,12 +119,17 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, SysUser> implements
         this.save(sysUser);
         deptUserService.saveDeptUser(new DeptUserDTO(saveUserDTO.getDeptId(),sysUser.getUserId()));
         userRoleService.saveUserRoles(new UserRoleDTO(sysUser.getUserId(),saveUserDTO.getRoles()));
+        redisUtil.add("ALL_USER",sysUser.getUserId().toString());
         return entityToVO(sysUser);
     }
 
     @Override
     public Boolean removeUser(Integer id) {
-        return this.removeById(id);
+        if(this.removeById(id)){
+            redisUtil.removeMember("ALL_USER",id.toString());
+            return true;
+        }
+        return false;
     }
 
     @Override

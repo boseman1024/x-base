@@ -1,10 +1,10 @@
 package com.axisx.xutil.util;
 
-import lombok.experimental.UtilityClass;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.*;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
@@ -15,6 +15,8 @@ public class RedisUtil {
 
     @Autowired
     private RedisTemplate redisTemplate;
+
+    public static RedisUtil redisUtil;
 
     /**
      * 写入缓存
@@ -174,9 +176,20 @@ public class RedisUtil {
      * @param key
      * @return
      */
-    public Set<Object> setMembers(String key) {
+    public Set<Object> getMembers(String key) {
         SetOperations<String, Object> set = redisTemplate.opsForSet();
         return set.members(key);
+    }
+
+    /**
+     * 集合删除
+     *
+     * @param value
+     * @return
+     */
+    public void removeMember(String key,Object value) {
+        SetOperations<String, Object> set = redisTemplate.opsForSet();
+        set.remove(key,value);
     }
 
     /**
